@@ -16,4 +16,10 @@ public class EtudiantModel {
     private String firstName;
     private String lastName;
     private boolean active;
+
+    public EtudiantModel(String firstName, String lastName, boolean active) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.active = active;
+    }
 }
